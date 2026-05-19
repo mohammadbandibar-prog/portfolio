@@ -111,10 +111,14 @@ a { text-decoration: none; color: inherit; }
 /* ── HERO ──────────────────────────────────────────────────── */
 .hero {
   min-height: 100vh;
-  display: flex; align-items: center;
+  display: flex; 
+  align-items: center;
+  justify-content :space-between;
   padding: 100px 6vw 60px;
-  position: relative; overflow: hidden;
+  position: relative;
+   overflow: hidden;
   gap: 4rem;
+  flex-direction:row;
 }
 .hero-bg-text {
   position: absolute; right: -2vw; top: 50%;
@@ -159,7 +163,10 @@ a { text-decoration: none; color: inherit; }
   transition: border-color 0.2s, color 0.2s, transform 0.2s;
 }
 .hero-socials a:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-3px); }
-.hero-img { z-index: 1; }
+.hero-img { z-index: 1;
+ display:block;
+flex-shrink:0;
+}
 .img-frame {
   width: 280px; height: 340px;
   border: 2px solid var(--accent);
