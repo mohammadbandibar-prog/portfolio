@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohammed Bandibar— Frontend Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <!-- ── NAVBAR ─────────────────────────────────────────────── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">YN<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ── HERO ───────────────────────────────────────────────── -->
+  <section id="home" class="hero">
+    <div class="hero-bg-text">DEV</div>
+    <div class="hero-content">
+      <p class="hero-tag reveal">Frontend Developer</p>
+      <h1 class="hero-name reveal"><br/><span class="outline-text">Mohammed Bandibar</span></h1>
+      <p class="hero-desc reveal">I build clean, responsive & interactive web experiences using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> & <strong>Bootstrap</strong>.</p>
+      <div class="hero-btns reveal">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-outline">Hire Me</a>
+      </div>
+      <div class="hero-socials reveal">
+        <a href="https://github.com/mohammadbandibar-prog" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/mohammad-bandibar-59200a320?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="mailto:mohammadbandibar@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+      </div>
+    </div>
+    <div class="hero-img reveal">
+      <div class="img-frame">
+        <div class="img-placeholder">
+          <i class="bi bi-person-fill"></i>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down">
+      <span>Scroll</span>
+      <i class="bi bi-arrow-down"></i>
+    </a>
+  </section>
+
+  <!-- ── ABOUT ──────────────────────────────────────────────── -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-num">01</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>Hi! I'm a passionate <strong>Frontend Developer</strong> from Gujarat, India, currently pursuing B.Tech in Information Technology at A.D. Patel Institute of Technology.</p>
+          <p>I love turning designs into clean, pixel-perfect web interfaces. My focus is on building fast, mobile-friendly, and accessible websites that look great on every screen.</p>
+          <p>When I'm not coding, I'm exploring new UI trends, practicing CSS animations, or working on personal projects to sharpen my skills.</p>
+          <a href="#" class="btn-primary" download>Download CV <i class="bi bi-download"></i></a>
+        </div>
+        <div class="about-stats reveal">
+          <div class="stat-card">
+            <span class="stat-num" data-count="2">0</span>
+            <span class="stat-label">Projects Built</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" data-count="3">0</span>
+            <span class="stat-label">Technologies</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" data-count="0">0</span>
+            <span class="stat-label">Year Experience</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" data-count="100">0</span>
+            <span class="stat-label">% Passion</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ─────────────────────────────────────────────── -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-num">02</span>
+        <h2 class="section-title">Skills</h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="bi bi-filetype-html"></i></div>
+          <h3>HTML5</h3>
+          <p>Semantic markup, accessibility, SEO-friendly structure, forms & media.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          <span class="skill-pct">90%</span>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="bi bi-filetype-css"></i></div>
+          <h3>CSS3</h3>
+          <p>Flexbox, Grid, animations, transitions, media queries, custom properties.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          <span class="skill-pct">85%</span>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="bi bi-filetype-js"></i></div>
+          <h3>JavaScript</h3>
+          <p>DOM manipulation, events, Fetch API, async/await, form validation.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+          <span class="skill-pct">75%</span>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="bi bi-bootstrap"></i></div>
+          <h3>Bootstrap 5</h3>
+          <p>Grid system, components, utility classes, responsive mobile-first design.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          <span class="skill-pct">85%</span>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="bi bi-git"></i></div>
+          <h3>Git & GitHub</h3>
+          <p>Version control, branching, pull requests, collaborative workflows.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+          <span class="skill-pct">70%</span>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="bi bi-phone"></i></div>
+          <h3>Responsive Design</h3>
+          <p>Mobile-first layouts, cross-browser compatibility, fluid typography.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+          <span class="skill-pct">88%</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ───────────────────────────────────────────── -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-num">03</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="filter-btns reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="html-css">HTML/CSS</button>
+        <button class="filter-btn" data-filter="javascript">JavaScript</button>
+        <button class="filter-btn" data-filter="bootstrap">Bootstrap</button>
+      </div>
+
+      <div class="projects-grid">
+
+       
+
+        <div class="project-card reveal" data-category="html-css bootstrap">
+          <div class="project-img">
+            <i class="bi bi-person-badge"></i>
+            <div class="project-overlay">
+              <a href="#" class="overlay-btn"><i class="bi bi-eye"></i> Live Demo</a>
+              <a href="#" class="overlay-btn"><i class="bi bi-github"></i> GitHub</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span class="ptag">HTML</span><span class="ptag">CSS</span><span class="ptag">Bootstrap</span>
+            </div>
+            <h3>Portfolio Website</h3>
+            <p>This very portfolio — built from scratch with HTML, CSS, JavaScript, and Bootstrap. Fully responsive and animated.</p>
+          </div>
+        </div>
+
+
+         <div class="project-card reveal" data-category="html-css bootstrap">
+          <div class="project-img">
+            <i class="bi bi-person-badge"></i>
+            <div class="project-overlay">
+              <a href="#" class="overlay-btn"><i class="bi bi-eye"></i> Live Demo</a>
+              <a href="https://github.com/mohammadbandibar-prog/youtube-clone" class="overlay-btn"><i class="bi bi-github"></i> GitHub</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span class="ptag">HTML</span><span class="ptag">CSS</span><span class="ptag">Bootstrap</span>
+            </div>
+            <h3>Youtube Clone</h3>
+            <p>A responsive clone of the YouTube interface built with HTML, CSS, and JavaScript.</p>
+          </div>
+        </div>
+
+
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ────────────────────────────────────────────── -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-num">04</span>
+        <h2 class="section-title">Contact</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Let's work together!</h3>
+          <p>I'm open to internship opportunities, freelance projects, and collaborations. Drop me a message and I'll get back to you.</p>
+          <div class="contact-links">
+            <a href="mailto:mohammadbandibar@gmail.com"><i class="bi bi-envelope-fill"></i> mohammadbandibar@gmail.com</a>
+            <a href="https://www.linkedin.com/in/mohammad-bandibar-59200a320?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank"><i class="bi bi-linkedin"></i> linkedin.com/in/mohammad-bandibar-59200a320</a>
+            <a href="https://github.com/mohammadbandibar-prog" target="_blank"><i class="bi bi-github"></i> github.com/mohammadbandibar</a>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Your Name" required/>
+            <span class="form-error" id="nameError"></span>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your Email" required/>
+            <span class="form-error" id="emailError"></span>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" placeholder="Subject" required/>
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            <span class="form-error" id="msgError"></span>
+          </div>
+          <button type="submit" class="btn-primary w-100">Send Message <i class="bi bi-send-fill"></i></button>
+          <div class="form-success" id="formSuccess">✅ Message sent! I'll get back to you soon.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────── -->
+  <footer>
+    <p>Designed & Built by <strong>Your Name</strong> · <span id="year"></span></p>
+    <div class="footer-socials">
+      <a href="https://github.com/mohammadbandibar-prog" target="_blank"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/mohammad-bandibar-59200a320?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank"><i class="bi bi-linkedin"></i></a>
+    </div>
+  </footer>
+
+  <div class="cursor" id="cursor"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
